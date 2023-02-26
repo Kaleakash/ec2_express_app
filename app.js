@@ -3,7 +3,7 @@ let app = express();
 
 
 app.get("/",(req,res)=> {
-	res.send("Welcome to Simple Express JS Application");
+	res.send("Welcome to Simple Express JS Application with EC2 instance");
 })
 app.get("/user/:name",(req,res)=> {
 	let name = req.params.name;
